@@ -14,8 +14,20 @@ request.onsuccess = function(event) {
     if (navigator.onLine) {
 
     }
-};
+}
 
 request.onerror = function(event) {
     console.log(event.target.errorCode);
+}
+
+function saveRecord(record) {
+    // open new transaction
+    // read and write permissions given
+    const transaction = db.transaction(['new_transaction'], 'readwrite');
+
+    // access object store
+    const transactionObjectStore = transaction.objectStore('new_transaction');
+
+    // add record to store with add method
+    transactionObjectStore.add(record)
 }
