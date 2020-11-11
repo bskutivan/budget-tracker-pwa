@@ -8,7 +8,6 @@
   * [Usage](#usage)
   * [License](#license)
   * [Contributing](#contributing)
-  * [Tests](#tests)
   * [Questions](#questions)
   ## Installation 
   Download the project or clone from git, navigate to the root, and install necessay dependencies (npm i).
@@ -35,9 +34,6 @@
   This project is licensed under the MIT license.
   ## Contributing
   Any code refactoring would be wonderful.
-  ## Tests
-  none as of yet.
-  The video on how to use this application is included here: 
-  [Walk-through Video]
+ 
   ## Questions
   If you have any questions about the repository, contact me directly at bskutivan@gmail.com. You can find more of my work at https://github.com/bskutivan.
