@@ -13,7 +13,7 @@
   Download the project or clone from git, navigate to the root of the directory, and install necessay dependencies (npm i).
   
   ## Usage
-  Please feel free to use.
+  Please feel free to use any or all of this project.
    
   ## License
   This project is licensed under the MIT license.
